@@ -58,7 +58,7 @@ class QmlWaveformOverview : public QQuickPaintedItem {
   signals:
     void playerChanged();
     void channelsChanged(mixxx::qml::QmlWaveformOverview::Channels channels);
-    void rendererChanged(mixxx::qml::QmlWaveformOverview::Renderer renderer);
+    void rendererChanged(Renderer renderer);
     void colorHighChanged(const QColor& color);
     void colorMidChanged(const QColor& color);
     void colorLowChanged(const QColor& color);
